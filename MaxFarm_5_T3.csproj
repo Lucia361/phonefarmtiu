@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Admin\Desktop\New folder\maxphonefarm_fb\maxphonefarm_fb\MaxFarm_5_T3.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77E37CC4-023A-4CAA-9533-81AF9F881D46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>MaxFarm_5_T3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AE.Net.Mail">
+      <HintPath>lib\AE.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>lib\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>lib\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceId">
+      <HintPath>lib\DeviceId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>lib\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Http">
+      <HintPath>lib\Http.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit">
+      <HintPath>lib\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedWinapi">
+      <HintPath>lib\ManagedWinapi.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>lib\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MimeKit">
+      <HintPath>lib\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp">
+      <HintPath>lib\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions">
+      <HintPath>lib\OpenCvSharp.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Otp.NET">
+      <HintPath>lib\Otp.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver">
+      <HintPath>lib\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>lib\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="minhelper">
+      <HintPath>lib\minhelper.dll</HintPath>
+    </Reference>
+    <Reference Include="xNet">
+      <HintPath>lib\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class121.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class201.cs" />
+    <Compile Include="Class205.cs" />
+    <Compile Include="Class206.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class38.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class42.cs" />
+    <Compile Include="Class44.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class54.cs" />
+    <Compile Include="Class55.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class65.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class76.cs" />
+    <Compile Include="Class77.cs" />
+    <Compile Include="fActive.cs" />
+    <Compile Include="fAddFile.cs" />
+    <Compile Include="fBin.cs" />
+    <Compile Include="fCapNhatDuLieu.cs" />
+    <Compile Include="fCauHinhBackupGroup.cs" />
+    <Compile Include="fCauHinhChung.cs" />
+    <Compile Include="fCauHinhDebug.cs" />
+    <Compile Include="fCauHinhHienThi.cs" />
+    <Compile Include="fCauHinhKhoiPhucTaiKhoan.cs" />
+    <Compile Include="fCauHinhLDPlayer.cs" />
+    <Compile Include="fCauHinhTuongTac.cs" />
+    <Compile Include="fCheckAppium.cs" />
+    <Compile Include="fCheckProxy.cs" />
+    <Compile Include="fChonBrandDevice.cs" />
+    <Compile Include="fChonKichBan.cs" />
+    <Compile Include="fChonThuMuc.cs" />
+    <Compile Include="fClearBackup.cs" />
+    <Compile Include="fClearProfile.cs" />
+    <Compile Include="fContact.cs" />
+    <Compile Include="fCopy.cs" />
+    <Compile Include="fDanhSachKichBan_Old.cs" />
+    <Compile Include="fDeviceList.cs" />
+    <Compile Include="fDownloadFile.cs" />
+    <Compile Include="fEditFile.cs" />
+    <Compile Include="fHDAddMail.cs" />
+    <Compile Include="fHDBackupData.cs" />
+    <Compile Include="fHDBaiVietBanBe.cs" />
+    <Compile Include="fHDBaiVietFanpage.cs" />
+    <Compile Include="fHDBaiVietNewsfeed.cs" />
+    <Compile Include="fHDBaiVietNewsfeedv2.cs" />
+    <Compile Include="fHDBaiVietNhom.cs" />
+    <Compile Include="fHDBuffFollowLikePage.cs" />
+    <Compile Include="fHDBuffFollowUID.cs" />
+    <Compile Include="fHDBuffLikeComment.cs" />
+    <Compile Include="fHDBuffLikePage.cs" />
+    <Compile Include="fHDBuffTinNhanProfile.cs" />
+    <Compile Include="fHDCapNhatThongTin.cs" />
+    <Compile Include="fHDCauHinhTaiKhoan.cs" />
+    <Compile Include="fHDChaySeeding.cs" />
+    <Compile Include="fHDChiaSeLivestream.cs" />
+    <Compile Include="fHDChocBanBe.cs" />
+    <Compile Include="fHDChucMungSinhNhat.cs" />
+    <Compile Include="fHDDangBaiNhom.cs" />
+    <Compile Include="fHDDangBaiPage.cs" />
+    <Compile Include="fHDDangBaiTuong.cs" />
+    <Compile Include="fHDDangReel.cs" />
+    <Compile Include="fHDDangStory.cs" />
+    <Compile Include="fHDDangXuatThietBiCu.cs" />
+    <Compile Include="fHDDanhGiaPage.cs" />
+    <Compile Include="fHDDocThongBao.cs" />
+    <Compile Include="fHDDoiMatKhau.cs" />
+    <Compile Include="fHDDoiTen.cs" />
+    <Compile Include="fHDDongBoDanhBa.cs" />
+    <Compile Include="fHDHuyKetBan.cs" />
+    <Compile Include="fHDHuyLoiMoiKetBan.cs" />
+    <Compile Include="fHDKetBanGoiY.cs" />
+    <Compile Include="fHDKetBanNewfeed.cs" />
+    <Compile Include="fHDKetBanTepUid.cs" />
+    <Compile Include="fHDKetBanTepUidNew.cs" />
+    <Compile Include="fHDKetBanThanhVienNhom.cs" />
+    <Compile Include="fHDKetBanTheoTuKhoa.cs" />
+    <Compile Include="fHDKetBanVoiBanBeCuaUid.cs" />
+    <Compile Include="fHDKetBanVoiBanCuaBanBe.cs" />
+    <Compile Include="fHDKhangSpam.cs" />
+    <Compile Include="fHDMoiBanBeLikePage.cs" />
+    <Compile Include="fHDMoiBanBeVaoNhom.cs" />
+    <Compile Include="fHDNghiGiaiLao.cs" />
+    <Compile Include="fHDNhanTinBanBe.cs" />
+    <Compile Include="fHDNhanTinPage.cs" />
+    <Compile Include="fHDOnOff2FA.cs" />
+    <Compile Include="fHDPhanHoiTinNhan.cs" />
+    <Compile Include="fHDRoiNhom.cs" />
+    <Compile Include="fHDSeedingByVideo.cs" />
+    <Compile Include="fHDShareBaiNangCao.cs" />
+    <Compile Include="fHDSpamBaiViet.cs" />
+    <Compile Include="fHDSpamBanBe.cs" />
+    <Compile Include="fHDSpamNewfeed.cs" />
+    <Compile Include="fHDSpamNhom.cs" />
+    <Compile Include="fHDThamGiaNhomGoiY.cs" />
+    <Compile Include="fHDThamGiaNhomTuKhoa.cs" />
+    <Compile Include="fHDThamGiaNhomUid.cs" />
+    <Compile Include="fHDTimKiemGoogle.cs" />
+    <Compile Include="fHDTruyCapWebsite.cs" />
+    <Compile Include="fHDTuongTacBaiVietChiDinh.cs" />
+    <Compile Include="fHDTuongTacBaiVietIA.cs" />
+    <Compile Include="fHDTuongTacBaiVietTuKhoa.cs" />
+    <Compile Include="fHDTuongTacBanBe.cs" />
+    <Compile Include="fHDTuongTacLivestream.cs" />
+    <Compile Include="fHDTuongTacNewsfeed.cs" />
+    <Compile Include="fHDTuongTacNhom.cs" />
+    <Compile Include="fHDTuongTacNhom_1.cs" />
+    <Compile Include="fHDTuongTacPage.cs" />
+    <Compile Include="fHDTuongTacReelChiDinh.cs" />
+    <Compile Include="fHDTuongTacVideo.cs" />
+    <Compile Include="fHDTuongTacWall.cs" />
+    <Compile Include="fHDUpAvatar.cs" />
+    <Compile Include="fHDUpCover.cs" />
+    <Compile Include="fHDVerifyAccount.cs" />
+    <Compile Include="fHDXacNhanKetBan.cs" />
+    <Compile Include="fHDXemReel.cs" />
+    <Compile Include="fHDXemStory.cs" />
+    <Compile Include="fHDXemWatch.cs" />
+    <Compile Include="fHDXemWatchTheoTuKhoa.cs" />
+    <Compile Include="fHDXemWatch_Old.cs" />
+    <Compile Include="fHDXoaReel.cs" />
+    <Compile Include="fHDXoaSdt.cs" />
+    <Compile Include="fHelpNhapComment.cs" />
+    <Compile Include="fHenGioChayDung.cs" />
+    <Compile Include="fHenGioChayDungAddTime.cs" />
+    <Compile Include="fHuongDanRandom.cs" />
+    <Compile Include="fImportAccount.cs" />
+    <Compile Include="fImportProxy.cs" />
+    <Compile Include="fImportUseragent.cs" />
+    <Compile Include="fIntro.cs" />
+    <Compile Include="fLocTheoDanhSachUid.cs" />
+    <Compile Include="fMain.cs" />
+    <Compile Include="fNhapCookieTrungGian.cs" />
+    <Compile Include="fNhapDuLieu1.cs" />
+    <Compile Include="fNhapDuLieu2.cs" />
+    <Compile Include="fNhapDuLieu3.cs" />
+    <Compile Include="fNhapProxy.cs" />
+    <Compile Include="fNhapTokenTrungGian.cs" />
+    <Compile Include="fNhapTokenTrungGian_DownAvatar.cs" />
+    <Compile Include="fNhapWifi.cs" />
+    <Compile Include="fQuanLyNhom.cs" />
+    <Compile Include="fSelectFolder.cs" />
+    <Compile Include="fShowProgressBar.cs" />
+    <Compile Include="fTemplateForm.cs" />
+    <Compile Include="fThemHanhDong.cs" />
+    <Compile Include="fThemKichBan.cs" />
+    <Compile Include="fTienIchCheckImapHotmail.cs" />
+    <Compile Include="fTienIchCheckLiveUid.cs" />
+    <Compile Include="fTienIchCheckProxy.cs" />
+    <Compile Include="fTienIchCheckStatusXProxy.cs" />
+    <Compile Include="fTienIchLocTrung.cs" />
+    <Compile Include="fTienIchTestSpinContent.cs" />
+    <Compile Include="fUpdateData.cs" />
+    <Compile Include="fView.cs" />
+    <Compile Include="GClass10.cs" />
+    <Compile Include="GClass11.cs" />
+    <Compile Include="GClass12.cs" />
+    <Compile Include="GClass13.cs" />
+    <Compile Include="GClass14.cs" />
+    <Compile Include="GClass15.cs" />
+    <Compile Include="GClass16.cs" />
+    <Compile Include="GClass17.cs" />
+    <Compile Include="GClass18.cs" />
+    <Compile Include="GClass19.cs" />
+    <Compile Include="GClass2.cs" />
+    <Compile Include="GClass20.cs" />
+    <Compile Include="GClass21.cs" />
+    <Compile Include="GClass22.cs" />
+    <Compile Include="GClass23.cs" />
+    <Compile Include="GClass24.cs" />
+    <Compile Include="GClass25.cs" />
+    <Compile Include="GClass26.cs" />
+    <Compile Include="GClass27.cs" />
+    <Compile Include="GClass28.cs" />
+    <Compile Include="GClass29.cs" />
+    <Compile Include="GClass3.cs" />
+    <Compile Include="GClass30.cs" />
+    <Compile Include="GClass31.cs" />
+    <Compile Include="GClass32.cs" />
+    <Compile Include="GClass33.cs" />
+    <Compile Include="GClass34.cs" />
+    <Compile Include="GClass35.cs" />
+    <Compile Include="GClass36.cs" />
+    <Compile Include="GClass37.cs" />
+    <Compile Include="GClass38.cs" />
+    <Compile Include="GClass39.cs" />
+    <Compile Include="GClass4.cs" />
+    <Compile Include="GClass5.cs" />
+    <Compile Include="GClass6.cs" />
+    <Compile Include="GClass7.cs" />
+    <Compile Include="GClass8.cs" />
+    <Compile Include="GClass9.cs" />
+    <Compile Include="GEnum0.cs" />
+    <Compile Include="GEnum1.cs" />
+    <Compile Include="GEnum11.cs" />
+    <Compile Include="GEnum2.cs" />
+    <Compile Include="GEnum3.cs" />
+    <Compile Include="GEnum4.cs" />
+    <Compile Include="GEnum5.cs" />
+    <Compile Include="GEnum6.cs" />
+    <Compile Include="GEnum7.cs" />
+    <Compile Include="GEnum8.cs" />
+    <Compile Include="GInterface0.cs" />
+    <Compile Include="GInterface1.cs" />
+    <Compile Include="GInterface2.cs" />
+    <Compile Include="GInterface3.cs" />
+    <Compile Include="GInterface4.cs" />
+    <Compile Include="GStruct0.cs" />
+    <Compile Include="GStruct1.cs" />
+    <Compile Include="GStruct2.cs" />
+    <Compile Include="GStruct3.cs" />
+    <Compile Include="GStruct4.cs" />
+    <Compile Include="GStruct5.cs" />
+    <Compile Include="GStruct6.cs" />
+    <Compile Include="JsonClass.cs" />
+    <Compile Include="JsonDataClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Resource.cs" />
+    <Compile Include="ucContact.cs" />
+    <Compile Include="System\Runtime\CompilerServices\RefSafetyRulesAttribute.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="fActive.resx" />
+    <EmbeddedResource Include="fAddFile.resx" />
+    <EmbeddedResource Include="fBin.resx" />
+    <EmbeddedResource Include="fCapNhatDuLieu.resx" />
+    <EmbeddedResource Include="fCauHinhBackupGroup.resx" />
+    <EmbeddedResource Include="fCauHinhChung.resx" />
+    <EmbeddedResource Include="fCauHinhDebug.resx" />
+    <EmbeddedResource Include="fCauHinhHienThi.resx" />
+    <EmbeddedResource Include="fCauHinhKhoiPhucTaiKhoan.resx" />
+    <EmbeddedResource Include="fCauHinhLDPlayer.resx" />
+    <EmbeddedResource Include="fCauHinhTuongTac.resx" />
+    <EmbeddedResource Include="fCheckAppium.resx" />
+    <EmbeddedResource Include="fCheckProxy.resx" />
+    <EmbeddedResource Include="fChonBrandDevice.resx" />
+    <EmbeddedResource Include="fChonKichBan.resx" />
+    <EmbeddedResource Include="fChonThuMuc.resx" />
+    <EmbeddedResource Include="fClearBackup.resx" />
+    <EmbeddedResource Include="fClearProfile.resx" />
+    <EmbeddedResource Include="fContact.resx" />
+    <EmbeddedResource Include="fCopy.resx" />
+    <EmbeddedResource Include="fDanhSachKichBan_Old.resx" />
+    <EmbeddedResource Include="fDeviceList.resx" />
+    <EmbeddedResource Include="fEditFile.resx" />
+    <EmbeddedResource Include="fHDAddMail.resx" />
+    <EmbeddedResource Include="fHDBackupData.resx" />
+    <EmbeddedResource Include="fHDBaiVietBanBe.resx" />
+    <EmbeddedResource Include="fHDBaiVietFanpage.resx" />
+    <EmbeddedResource Include="fHDBaiVietNewsfeed.resx" />
+    <EmbeddedResource Include="fHDBaiVietNewsfeedv2.resx" />
+    <EmbeddedResource Include="fHDBaiVietNhom.resx" />
+    <EmbeddedResource Include="fHDBuffFollowLikePage.resx" />
+    <EmbeddedResource Include="fHDBuffFollowUID.resx" />
+    <EmbeddedResource Include="fHDBuffLikeComment.resx" />
+    <EmbeddedResource Include="fHDBuffLikePage.resx" />
+    <EmbeddedResource Include="fHDBuffTinNhanProfile.resx" />
+    <EmbeddedResource Include="fHDCapNhatThongTin.resx" />
+    <EmbeddedResource Include="fHDCauHinhTaiKhoan.resx" />
+    <EmbeddedResource Include="fHDChaySeeding.resx" />
+    <EmbeddedResource Include="fHDChiaSeLivestream.resx" />
+    <EmbeddedResource Include="fHDChocBanBe.resx" />
+    <EmbeddedResource Include="fHDChucMungSinhNhat.resx" />
+    <EmbeddedResource Include="fHDDangBaiNhom.resx" />
+    <EmbeddedResource Include="fHDDangBaiPage.resx" />
+    <EmbeddedResource Include="fHDDangBaiTuong.resx" />
+    <EmbeddedResource Include="fHDDangReel.resx" />
+    <EmbeddedResource Include="fHDDangStory.resx" />
+    <EmbeddedResource Include="fHDDangXuatThietBiCu.resx" />
+    <EmbeddedResource Include="fHDDanhGiaPage.resx" />
+    <EmbeddedResource Include="fHDDocThongBao.resx" />
+    <EmbeddedResource Include="fHDDoiMatKhau.resx" />
+    <EmbeddedResource Include="fHDDoiTen.resx" />
+    <EmbeddedResource Include="fHDDongBoDanhBa.resx" />
+    <EmbeddedResource Include="fHDHuyKetBan.resx" />
+    <EmbeddedResource Include="fHDHuyLoiMoiKetBan.resx" />
+    <EmbeddedResource Include="fHDKetBanGoiY.resx" />
+    <EmbeddedResource Include="fHDKetBanNewfeed.resx" />
+    <EmbeddedResource Include="fHDKetBanTepUid.resx" />
+    <EmbeddedResource Include="fHDKetBanTepUidNew.resx" />
+    <EmbeddedResource Include="fHDKetBanThanhVienNhom.resx" />
+    <EmbeddedResource Include="fHDKetBanTheoTuKhoa.resx" />
+    <EmbeddedResource Include="fHDKetBanVoiBanBeCuaUid.resx" />
+    <EmbeddedResource Include="fHDKetBanVoiBanCuaBanBe.resx" />
+    <EmbeddedResource Include="fHDKhangSpam.resx" />
+    <EmbeddedResource Include="fHDMoiBanBeLikePage.resx" />
+    <EmbeddedResource Include="fHDMoiBanBeVaoNhom.resx" />
+    <EmbeddedResource Include="fHDNghiGiaiLao.resx" />
+    <EmbeddedResource Include="fHDNhanTinBanBe.resx" />
+    <EmbeddedResource Include="fHDNhanTinPage.resx" />
+    <EmbeddedResource Include="fHDOnOff2FA.resx" />
+    <EmbeddedResource Include="fHDPhanHoiTinNhan.resx" />
+    <EmbeddedResource Include="fHDRoiNhom.resx" />
+    <EmbeddedResource Include="fHDSeedingByVideo.resx" />
+    <EmbeddedResource Include="fHDShareBaiNangCao.resx" />
+    <EmbeddedResource Include="fHDSpamBaiViet.resx" />
+    <EmbeddedResource Include="fHDSpamBanBe.resx" />
+    <EmbeddedResource Include="fHDSpamNewfeed.resx" />
+    <EmbeddedResource Include="fHDSpamNhom.resx" />
+    <EmbeddedResource Include="fHDThamGiaNhomGoiY.resx" />
+    <EmbeddedResource Include="fHDThamGiaNhomTuKhoa.resx" />
+    <EmbeddedResource Include="fHDThamGiaNhomUid.resx" />
+    <EmbeddedResource Include="fHDTimKiemGoogle.resx" />
+    <EmbeddedResource Include="fHDTruyCapWebsite.resx" />
+    <EmbeddedResource Include="fHDTuongTacBaiVietChiDinh.resx" />
+    <EmbeddedResource Include="fHDTuongTacBaiVietIA.resx" />
+    <EmbeddedResource Include="fHDTuongTacBaiVietTuKhoa.resx" />
+    <EmbeddedResource Include="fHDTuongTacBanBe.resx" />
+    <EmbeddedResource Include="fHDTuongTacLivestream.resx" />
+    <EmbeddedResource Include="fHDTuongTacNewsfeed.resx" />
+    <EmbeddedResource Include="fHDTuongTacNhom.resx" />
+    <EmbeddedResource Include="fHDTuongTacNhom_1.resx" />
+    <EmbeddedResource Include="fHDTuongTacPage.resx" />
+    <EmbeddedResource Include="fHDTuongTacReelChiDinh.resx" />
+    <EmbeddedResource Include="fHDTuongTacVideo.resx" />
+    <EmbeddedResource Include="fHDTuongTacWall.resx" />
+    <EmbeddedResource Include="fHDUpAvatar.resx" />
+    <EmbeddedResource Include="fHDUpCover.resx" />
+    <EmbeddedResource Include="fHDVerifyAccount.resx" />
+    <EmbeddedResource Include="fHDXacNhanKetBan.resx" />
+    <EmbeddedResource Include="fHDXemReel.resx" />
+    <EmbeddedResource Include="fHDXemStory.resx" />
+    <EmbeddedResource Include="fHDXemWatch.resx" />
+    <EmbeddedResource Include="fHDXemWatch_Old.resx" />
+    <EmbeddedResource Include="fHDXemWatchTheoTuKhoa.resx" />
+    <EmbeddedResource Include="fHDXoaReel.resx" />
+    <EmbeddedResource Include="fHDXoaSdt.resx" />
+    <EmbeddedResource Include="fHelpNhapComment.resx" />
+    <EmbeddedResource Include="fHenGioChayDung.resx" />
+    <EmbeddedResource Include="fHenGioChayDungAddTime.resx" />
+    <EmbeddedResource Include="fHuongDanRandom.resx" />
+    <EmbeddedResource Include="fImportAccount.resx" />
+    <EmbeddedResource Include="fImportProxy.resx" />
+    <EmbeddedResource Include="fImportUseragent.resx" />
+    <EmbeddedResource Include="fIntro.resx" />
+    <EmbeddedResource Include="fLocTheoDanhSachUid.resx" />
+    <EmbeddedResource Include="fMain.resx" />
+    <EmbeddedResource Include="fNhapCookieTrungGian.resx" />
+    <EmbeddedResource Include="fNhapDuLieu1.resx" />
+    <EmbeddedResource Include="fNhapDuLieu2.resx" />
+    <EmbeddedResource Include="fNhapDuLieu3.resx" />
+    <EmbeddedResource Include="fNhapProxy.resx" />
+    <EmbeddedResource Include="fNhapTokenTrungGian.resx" />
+    <EmbeddedResource Include="fNhapTokenTrungGian_DownAvatar.resx" />
+    <EmbeddedResource Include="fNhapWifi.resx" />
+    <EmbeddedResource Include="fQuanLyNhom.resx" />
+    <EmbeddedResource Include="fSelectFolder.resx" />
+    <EmbeddedResource Include="fTemplateForm.resx" />
+    <EmbeddedResource Include="fThemHanhDong.resx" />
+    <EmbeddedResource Include="fThemKichBan.resx" />
+    <EmbeddedResource Include="fTienIchCheckImapHotmail.resx" />
+    <EmbeddedResource Include="fTienIchCheckLiveUid.resx" />
+    <EmbeddedResource Include="fTienIchCheckProxy.resx" />
+    <EmbeddedResource Include="fTienIchCheckStatusXProxy.resx" />
+    <EmbeddedResource Include="fTienIchLocTrung.resx" />
+    <EmbeddedResource Include="fTienIchTestSpinContent.resx" />
+    <EmbeddedResource Include="fUpdateData.resx" />
+    <EmbeddedResource Include="fView.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resource.resx" />
+    <EmbeddedResource Include="ucContact.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
